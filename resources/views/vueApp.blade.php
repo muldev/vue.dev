@@ -17,8 +17,8 @@
 <div class="container">
     <h3>Vue.js CRUD With Laravel 5.5 application</h3>
 </div>
-
 <section id="muldevcms"></section>
+
 
 <script>
     window.Laravel = <?php echo json_encode([

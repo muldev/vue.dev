@@ -1,7 +1,7 @@
 /**
  * Created by: Simon Assouline on 27/02/18.
  * Updated:    27/02/18
- * Purpose:
+ * Purpose:     Toggle between Device menu and Desktop menu
  * Copyright 2017 (c), muldev (Multi Development Studios)
  * All rights reserved.
  */
