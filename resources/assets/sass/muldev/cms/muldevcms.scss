@@ -2,11 +2,49 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
-@import "variables";
-
-
+// Bulma Styling
+@import "bulma_variables";
 @import "~bulma/bulma";
+
+// Partials and mixins
+@import "partials/colours";
+@import "partials/spaces";
+@import "partials/gradient";
+@import "partials/widths";
+
+/* ------------------------
+        Muldev Fonts
+   ------------------------ */
+@import "partials/muldev-font-variables";
+@import "partials/muldev-fonts";
+
+@import "~animate.css";
+
+/* ------------------------
+        Footer Style
+   ------------------------ */
+// Sticky footer where norm is id content
+// pushing the content down.
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+#norm {
+  flex: 1;
+}
+
+
+#post-header {
+  th {
+    color: yellow;
+    background-color: $clr-cobalt;
+  }
+}
+
+
+
+
 
 
 

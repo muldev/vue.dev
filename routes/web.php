@@ -15,8 +15,21 @@ Route::get('/', function () {
     return view('landing');
 });
 
+Route::get('/overview', function() {
+    return view('pages.overview');
+});
+
+Route::resource('/tasks', 'Muldev\Cms\TaskController');
+
 Route::get('/cms', 'Muldev\Cms\PostController@home');
 
 Route::resource('/posts','Muldev\Cms\PostController');
+
+
+/*
+ * Tasks Examples
+ */
+
+
 
 

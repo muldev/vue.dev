@@ -11,7 +11,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/muldev/cms/muldevcms.js',
+mix.js('resources/assets/js/muldev/cms/cms.js',
     'public/js/muldev/cms')
-   .sass('resources/assets/sass/muldev/cms/muldevcms.scss',
+    .js('resources/assets/js/muldev/cms/normal-site.js',
+        'public/js/muldev/cms')
+    .sass('resources/assets/sass/muldev/cms/muldevcms.scss',
        'public/css/muldev/cms');

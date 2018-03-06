@@ -1,0 +1,56 @@
+// Colours
+$clr-black: black;
+$clr-white: white;
+$clr-grey: grey;
+$clr-gray: gray;
+$clr-silver: silver;
+$clr-red: red;
+$clr-blue: blue;
+$clr-cobalt: #0d47a1;
+$clr-coral: coral;
+$clr-crimson: crimson;
+$clr-yellow: yellow;
+$clr-yellowgreen: yellowgreen;
+$clr-slategray: slategray;
+$clr-darkslateblue: darkslateblue;
+$clr-deepskyblue: deepskyblue;
+$clr-slategrey: slategrey;
+$clr-wheat: deepskyblue;
+
+// Backgrounds
+.bg-black { background-color: $clr-black; }
+.bg-white { background-color: $clr-white; }
+.bg-grey { background-color: $clr-grey; }
+.bg-gray { background-color: $clr-gray; }
+.bg-silver { background-color: $clr-silver; }
+.bg-red { background-color: $clr-red; }
+.bg-blue { background-color: $clr-blue; }
+.bg-cobalt { background-color: $clr-cobalt; }
+.bg-coral { background-color: $clr-coral; }
+.bg-crimson { background-color: $clr-crimson; }
+.bg-yellow { background-color: $clr-yellow; }
+.bg-yellowgreen { background-color: $clr-yellowgreen; }
+.bg-slategray { background-color: $clr-slategray; }
+.bg-slategrey { background-color: $clr-slategrey;  }
+.bg-darkslateblue { background-color: $clr-darkslateblue; }
+.bg-deepskyblue { background-color: $clr-deepskyblue; }
+.bg-wheat { background-color: $clr-wheat;  }
+
+// Foregrounds
+.fr-black { color: $clr-black; }
+.fr-white { color: $clr-white; }
+.fr-grey { color: $clr-grey; }
+.fr-gray { color: $clr-gray; }
+.fr-silver { color: $clr-silver; }
+.fr-red { color: $clr-red; }
+.fr-blue { color: $clr-blue; }
+.fr-cobalt { color: $clr-cobalt; }
+.fr-coral { color: $clr-coral; }
+.fr-crimson { color: $clr-crimson; }
+.fr-yellow { color: $clr-yellow; }
+.fr-yellowgreen { color: $clr-yellowgreen; }
+.fr-slategray { color: $clr-slategray; }
+.fr-slategrey { color: $clr-slategrey;  }
+.fr-darkslateblue { color: $clr-darkslateblue; }
+.fr-deepskyblue { color: $clr-deepskyblue; }
+.fr-wheat { color: $clr-wheat;  }

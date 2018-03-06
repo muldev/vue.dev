@@ -1,0 +1,15 @@
+@mixin width($amount:'5rem') {
+  min-width: $amount;
+}
+
+.has-width-fa {  @include width(1.3rem); }
+.has-width-5  {  @include width(5rem); }
+.has-width-10 {  @include width(10rem); }
+.has-width-15 {  @include width(15rem); }
+.has-width-20 {  @include width(20rem); }
+.has-width-25 {  @include width(25rem); }
+.has-width-30 {  @include width(30rem); }
+.has-width-40 {  @include width(40rem); }
+.has-width-50 {  @include width(50rem); }
+.has-width-70 {  @include width(70rem); }
+.has-width-100 {  @include width(100rem); }

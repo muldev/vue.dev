@@ -1,15 +1,18 @@
 @extends('layouts.guest', [
-                'title'  => "Vue.js Examples"
+                'title'  => "Overview"
                 ])
+
 
 @section('content-header')
     <div class="hero">
-        <h1>Vue Examples</h1>
+        <h1>Overview</h1>
     </div>
 @stop
 
 @section('content-body')
     <div class="section">
-        Content body
+        <div class="container">
+
+        </div>
     </div>
 @stop

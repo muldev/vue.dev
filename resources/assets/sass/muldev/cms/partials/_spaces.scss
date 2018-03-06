@@ -1,0 +1,91 @@
+@mixin space($type:margin, $direction:all, $amount:'5px'){
+  @if $type == padding {
+    @if $direction == all{
+      padding: $amount;
+    } @else if $direction == top {
+      padding-top:$amount
+    } @else if $direction == left {
+      padding-left:$amount
+    } @else if $direction == right {
+      padding-right:$amount
+    } @else {
+      padding-bottom:$amount
+    }
+  } @else {
+    @if $direction == all{
+      margin: $amount;
+    } @else if $direction == top {
+      margin-top:$amount
+    } @else if $direction == left {
+      margin-left:$amount
+    } @else if $direction == right {
+      margin-right:$amount
+    } @else {
+      margin-bottom:$amount
+    }
+  }
+}
+
+/**
+ *  Padding
+ */
+.has-space-p-5  {  @include space(padding, all, 5px ); }
+.has-space-p-10 { @include space(padding, all, 10px ); }
+.has-space-p-15 { @include space(padding, all, 15px ); }
+.has-space-p-20 { @include space(padding, all, 20px ); }
+
+.has-space-p-top-5  { @include space(padding, top,  5px ); }
+.has-space-p-top-10 { @include space(padding, top, 10px ); }
+.has-space-p-top-15 { @include space(padding, top, 15px ); }
+.has-space-p-top-20 { @include space(padding, top, 20px ); }
+
+.has-space-p-bottom-5  { @include space(padding, bottom,  5px ); }
+.has-space-p-bottom-10 { @include space(padding, bottom, 10px ); }
+.has-space-p-bottom-15 { @include space(padding, bottom, 15px ); }
+.has-space-p-bottom-20 { @include space(padding, bottom, 20px ); }
+
+.has-space-p-left-5  { @include space(padding, left,  5px ); }
+.has-space-p-left-10 { @include space(padding, left, 10px ); }
+.has-space-p-left-15 { @include space(padding, left, 15px ); }
+.has-space-p-left-20 { @include space(padding, left, 20px ); }
+
+.has-space-p-right-5  { @include space(padding, right,  5px ); }
+.has-space-p-right-10 { @include space(padding, right, 10px ); }
+.has-space-p-right-15 { @include space(padding, right, 15px ); }
+.has-space-p-right-20 { @include space(padding, right, 20px ); }
+
+
+/**
+ *  Margin
+ */
+.has-space-m-5  {  @include space(margin, all, 5px ); }
+.has-space-m-10 { @include space(margin, all, 10px ); }
+.has-space-m-15 { @include space(margin, all, 15px ); }
+.has-space-m-20 { @include space(margin, all, 20px ); }
+
+.has-space-m-top-5  { @include space(margin, top,  5px ); }
+.has-space-m-top-10 { @include space(margin, top, 10px ); }
+.has-space-m-top-15 { @include space(margin, top, 15px ); }
+.has-space-m-top-20 { @include space(margin, top, 20px ); }
+
+.has-space-m-bottom-5  { @include space(margin, bottom,  5px ); }
+.has-space-m-bottom-10 { @include space(margin, bottom, 10px ); }
+.has-space-m-bottom-15 { @include space(margin, bottom, 15px ); }
+.has-space-m-bottom-20 { @include space(margin, bottom, 20px ); }
+
+.has-space-m-left-5   { @include space(margin, left,  5px ); }
+.has-space-m-left-10  { @include space(margin, left, 10px ); }
+.has-space-m-left-15  { @include space(margin, left, 15px ); }
+.has-space-m-left-20  { @include space(margin, left, 20px ); }
+.has-space-m-left-50  { @include space(margin, left, 50px ); }
+.has-space-m-left-80  { @include space(margin, left, 80px ); }
+.has-space-m-left-100 { @include space(margin, left, 100px ); }
+
+.has-space-m-right-5   { @include space(margin, right,  5px ); }
+.has-space-m-right-10  { @include space(margin, right, 10px ); }
+.has-space-m-right-15  { @include space(margin, right, 15px ); }
+.has-space-m-right-20  { @include space(margin, right, 20px ); }
+.has-space-m-right-50  { @include space(margin, right, 50px ); }
+.has-space-m-right-80  { @include space(margin, right, 80px ); }
+.has-space-m-right-100 { @include space(margin, right, 100px ); }
+

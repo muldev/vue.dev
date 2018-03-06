@@ -1,4 +1,5 @@
 {
-    "/js/muldev/cms/muldevcms.js": "/js/muldev/cms/muldevcms.js",
-    "/css/muldev/cms/muldevcms.css": "/css/muldev/cms/muldevcms.css"
+    "/js/muldev/cms/cms.js": "/js/muldev/cms/cms.js",
+    "/css/muldev/cms/muldevcms.css": "/css/muldev/cms/muldevcms.css",
+    "/js/muldev/cms/normal-site.js": "/js/muldev/cms/normal-site.js"
 }

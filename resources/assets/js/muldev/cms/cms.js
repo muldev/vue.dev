@@ -1,4 +1,3 @@
-
 require('./bootstrap');
 require('./bulma');
 
@@ -11,7 +10,6 @@ window.VueAxios=require('vue-axios').default;
 window.Axios=require('axios').default;
 
 let AppLayout= require('./components/App.vue');
-// Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 // show the list post template
 const Listposts=Vue.component('Listposts', require('./components/Listposts.vue'));
@@ -27,6 +25,10 @@ const Deletepost =Vue.component('Deletepost', require('./components/Deletepost.v
 
 // view single post template
 const Viewpost =Vue.component('Viewpost', require('./components/Viewpost.vue'));
+
+// import AnimatedVue from 'animated-vue';
+import AnimatedVue from 'animated-vue';
+Vue.use(AnimatedVue);
 
 // registering Modules
 Vue.use(VueRouter,VueAxios, axios);
