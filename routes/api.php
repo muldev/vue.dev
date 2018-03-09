@@ -13,6 +13,18 @@ use Illuminate\Http\Request;
 |
 */
 
+/*
+ * Tasks  Vue.js examples
+ */
+Route::resource('tasks',
+    'Muldev\Cms\Api\TaskController',
+    [ 'except' => ['edit', 'show', 'store']
+    ]);
+
+Route::get('taskapi', function () {
+    return App\Muldev\Cms\Task::paginate(2);
+});
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });

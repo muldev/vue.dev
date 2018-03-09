@@ -53,23 +53,23 @@
                         Live Demo
                     </a>
                     <div class="navbar-dropdown is-boxed">
-                        <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                        <a class="navbar-item" href="/tasks">
                             Tasks
                         </a>
-                        <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                        <a class="navbar-item" href="#">
                             Transitions
                         </a>
-                        <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                        <a class="navbar-item" href="#">
                             Validation
                         </a>
-                        <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                        <a class="navbar-item" href="#">
                             Layouts
                         </a>
                         <hr class="navbar-divider">
-                        <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                        <a class="navbar-item" href="#">
                             Elements
                         </a>
-                        <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+                        <a class="navbar-item is-active" href="#eadcrumb/">
                             Components
                         </a>
                     </div>

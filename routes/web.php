@@ -29,6 +29,10 @@ Route::resource('/posts','Muldev\Cms\PostController');
 /*
  * Tasks Examples
  */
+Route::get('tasklist', function() {
+    return view('tasks.task_list',
+        ['tasks' => App\Muldev\Cms\Task::paginate(4)]);
+});
 
 
 
